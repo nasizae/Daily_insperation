@@ -80,4 +80,7 @@ dependencies {
 
     implementation ("me.relex:circleindicator:2.1.6")
 
+    implementation("androidx.core:core-ktx:1.12.0")
+   implementation("androidx.core:core-splashscreen:1.0.1")
+
 }

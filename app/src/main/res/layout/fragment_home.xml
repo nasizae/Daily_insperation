@@ -7,14 +7,145 @@
     android:background="@color/midnight"
     android:orientation="vertical"
     tools:context=".presentation.home.HomeFragment">
-
-   <androidx.recyclerview.widget.RecyclerView
-       android:id="@+id/rv_category"
+   <HorizontalScrollView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:orientation="horizontal"
-       tools:listitem="@layout/item_category"
-       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+       android:scrollbars="none"
+       >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+         <androidx.cardview.widget.CardView
+             android:id="@+id/btn_motivation"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             android:background="@mipmap/ic_launcher"
+             app:cardElevation="16dp"
+             app:cardCornerRadius="14dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="16dp"
+             android:outlineSpotShadowColor="@color/blue"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/img_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_motivation"
+                android:layout_gravity="end|bottom"
+                />
+
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="@string/category_motivation"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                />
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/btn_love"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             android:background="@mipmap/ic_launcher"
+             app:cardElevation="16dp"
+             app:cardCornerRadius="14dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="16dp"
+             android:outlineSpotShadowColor="@color/blue"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_love"
+                android:layout_gravity="end|bottom"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="@string/category_love"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                />
+
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/btn_life"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             android:background="@mipmap/ic_launcher"
+             app:cardElevation="16dp"
+             app:cardCornerRadius="14dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="16dp"
+             android:outlineSpotShadowColor="@color/blue"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_life"
+                android:layout_gravity="end|bottom"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="@string/category_life"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                />
+
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/btn_smile"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             app:cardElevation="16dp"
+             app:cardCornerRadius="14dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="16dp"
+             android:outlineSpotShadowColor="@color/blue"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_love"
+                android:layout_gravity="end|bottom"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="@string/category_smile"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                />
+         </androidx.cardview.widget.CardView>
+      </LinearLayout>
+   </HorizontalScrollView>
+
    <androidx.recyclerview.widget.RecyclerView
       android:id="@+id/rv_quotes"
        android:layout_width="match_parent"

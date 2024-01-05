@@ -3,33 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/spleshScreenFragment">
 
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.dailyinsperation.presentation.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_reels"
-        android:name="com.example.dailyinsperation.presentation.reels.ReelsFragment"
-        android:label="Reels"
-        tools:layout="@layout/fragment_reels" />
-
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.dailyinsperation.presentation.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/navigation_interesting"
-        android:name="com.example.dailyinsperation.presentation.interesting.InterestingFragment"
+        android:id="@+id/navigation_notification"
+        android:name="com.example.dailyinsperation.presentation.notification.NotificationFragment"
         android:label="fragment_interesting"
-        tools:layout="@layout/fragment_interesting" />
+        tools:layout="@layout/fragment_notification" />
     <fragment
         android:id="@+id/onBoardingFragment"
         android:name="com.example.dailyinsperation.presentation.onboarding.OnBoardingFragment"
         android:label="fragment_on_boarding"
         tools:layout="@layout/fragment_on_boarding" />
+    <fragment
+        android:id="@+id/spleshScreenFragment"
+        android:name="com.example.dailyinsperation.presentation.spleshscreen.SpleshScreenFragment"
+        android:label="fragment_splesh_screen"
+        tools:layout="@layout/fragment_splesh_screen" />
 </navigation>

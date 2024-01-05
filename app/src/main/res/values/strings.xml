@@ -17,4 +17,13 @@
     <string name="favorite">Избранные</string>
     <string name="question">Вопросы o</string>
     <string name="daily_inspiration">Daily inspiration</string>
+    <string name="daily">Daily</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="_notification">notification</string>
+    <string name="exit">Выйти из аккаунта</string>
+    <string name="category_motivation">Мотивацион\n-ные</string>
+    <string name="category_love">Любовь</string>
+    <string name="category_life">Жизнь</string>
+    <string name="category_smile">Смешные</string>
+    <string name="redactor_profile">Редактирование профиля</string>
 </resources>

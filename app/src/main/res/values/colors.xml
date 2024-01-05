@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="midnight">#404654</color>
     <color name="blue">#5AB6E9</color>
+    <color name="background_app">#EAE1D8</color>
 </resources>
