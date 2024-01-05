@@ -26,4 +26,21 @@
     <string name="category_life">Жизнь</string>
     <string name="category_smile">Смешные</string>
     <string name="redactor_profile">Редактирование профиля</string>
+    <string name="sign_in">Вход</string>
+    <string name="username">логин</string>
+    <string name="password">пароль</string>
+    <string name="helptxt_username">Введите логин</string>
+    <string name="helptxt_password">Введите пароль</string>
+    <string name="signin">Войти</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_account">Ещё нет аккаунта?</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="register_txt">Регистрация</string>
+    <string name="email">email</string>
+    <string name="helptxt_email">введите почту</string>
+    <string name="confirm_password">подтвердить пароль</string>
+    <string name="helptxt_confirm_password">Введите пароль ещё раз</string>
+    <string name="yes_account">У вас уже есть аакаунт?</string>
 </resources>

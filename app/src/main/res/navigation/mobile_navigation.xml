@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/spleshScreenFragment">
+    app:startDestination="@id/registrationFragment">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -30,4 +30,14 @@
         android:name="com.example.dailyinsperation.presentation.spleshscreen.SpleshScreenFragment"
         android:label="fragment_splesh_screen"
         tools:layout="@layout/fragment_splesh_screen" />
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.example.dailyinsperation.presentation.identification.authorization.AuthorizationFragment"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.dailyinsperation.presentation.identification.registration.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
 </navigation>

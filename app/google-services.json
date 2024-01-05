@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056585652288",
+    "project_id": "daily-insperation-d52e2",
+    "storage_bucket": "daily-insperation-d52e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056585652288:android:084f307052853fb51827a5",
+        "android_client_info": {
+          "package_name": "com.example.dailyinsperation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdqpYfq47vaonaEi1iUIOMu9BO-B0sQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
